@@ -6,10 +6,10 @@ author: 'Alyssa De Metro'
 inputs:
 GITHUB_TOKEN:
 description: 'github token'
-required: 'true'
+required: true
 TENOR_TOKEN:
 description: 'Tenor API token'
-required: 'true'
+required: true
 
 
 runs:
