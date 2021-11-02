@@ -9,9 +9,10 @@ description: 'github token'
 required: true
 TENOR_TOKEN:
 description: 'Tenor API token'
-required: false
+required: true
 
 
 runs:
- using: [node12]
+    with:
+        node-version: '12'
  main: 'dist/index.js'
