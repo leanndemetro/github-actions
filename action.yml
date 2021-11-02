@@ -1,0 +1,17 @@
+name: 'Thank you action'
+description: 'Say 'thank you' upon pull request'
+author: 'Alyssa De Metro'
+
+
+inputs:
+GITHUB_TOKEN:
+description: 'github token'
+required: 'true'
+TENOR_TOKEN:
+description: 'Tenor API token'
+required: 'true'
+
+
+runs:
+ using: 'node12'
+ main: 'dist/index.js'
