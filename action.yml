@@ -7,9 +7,7 @@ inputs:
 GITHUB_TOKEN:
 description: 'github token'
 required: true
-TENOR_TOKEN:
-description: 'Tenor API token'
-required: true
+
 
 
 runs:
